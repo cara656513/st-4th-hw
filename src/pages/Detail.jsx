@@ -8,7 +8,7 @@ const Detail = () => {
   ];
 
   const params = useParams();
-  console.log(params);
+  console.log(params.id);
 
   return (
     <>
